@@ -16,8 +16,12 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue'
     },
     title:{
-        fontSize:25,
+        fontSize:23,
         //width:100,
-        borderWidth:7
+        borderWidth:7,
+        paddingHorizontal:80,
+        paddingVertical:80,
+        //margin:30,
+        marginHorizontal:30
     }
 })
