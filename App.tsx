@@ -7,6 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 //import { DimensionesScreen } from './src/screens/DimensionesScreen';
 //import { PositionRelativeScreen } from './src/screens/PositionRelativeScreen';
 import { PositionAbsoluteScreen } from './src/screens/PositionAbsoluteScreen';
+import { FlexBoxScreen } from './src/screens/FlexBoxScreen';
 // import { HomeScreen } from './src/screens/HomeScreen';
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
     {/* <BoxObjectModelScreen/> */}
     {/* <DimensionesScreen/> */}
     {/* <PositionRelativeScreen/> */}
-    <PositionAbsoluteScreen/>
+    {/* <PositionAbsoluteScreen/> */}
+    <FlexBoxScreen/>
     </SafeAreaView>
     
     
